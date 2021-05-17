@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import web from '../src/images/homeImg.png';
+
 
 const Common = (props) => {
     return (
@@ -18,7 +18,7 @@ const Common = (props) => {
                                 </div>
                             </div>
                             <div className='col-lg-6 order-1 order-lg-2 header-img'>
-                                <img src={props.imgg} className="img-fluid animated" alt="home image" />
+                                <img src={props.imgg} className="img-fluid animated" alt="home_image" />
                             </div>
                             </div>
                         </div>

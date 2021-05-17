@@ -1,9 +1,15 @@
+
+
+
+
+
+
 import web from '../src/images/s1.jpg';
 import soft from '../src/images/s2.webp';
-import hard from '../src/images/s3.jpg';
-import pro from '../src/images/s4.jpg';
-import lol from '../src/images/s5.webp';
-import noob from '../src/images/s6.jpg';
+import digi from '../src/images/s3.jpg';
+import market from '../src/images/s4.jpg';
+import Andr from '../src/images/s5.webp';
+import Machine from '../src/images/s6.jpg';
 
 const Sdata = [
     {
@@ -15,19 +21,19 @@ const Sdata = [
         title : "Software Development",
     },
     {
-        imagesrc : hard,
+        imagesrc : digi,
         title : "Digital Marketing" ,
     },
     {
-        imagesrc : pro,
+        imagesrc : market,
         title : "Marketing",
     },
     {
-        imagesrc : lol,
+        imagesrc : Andr,
         title : "Android Development",
     },
     {
-        imagesrc : noob,
+        imagesrc : Machine,
         title : "Machine Learning",
     }
 ];
