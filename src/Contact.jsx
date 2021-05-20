@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -19,8 +20,21 @@ const Contact = () => {
     } 
     const formSubmit = (e)=> {
         e.preventDefault();
-           
- alert(` Your Name Is ${data.fullname}. Mobile no. is ${data.phone} and email : ${data.email} and your message is : ${data.msg}... YOUR FORM IS SUBMITTED SUCCESSFULLY`)
+        toast.success(`FORM IS SUBMITTED SUCCESSFULLY`,{
+            position: "top-center",
+        })
+       
+       const alertFunction = () => toast.info(<div>
+         Name : {data.fullname}.<br/>
+         Mobile no. : {data.phone} <br/>
+         Email : {data.email} <br/>
+         Your message is : <br/> {data.msg}.
+       </div>, {
+            position: "top-center",
+            autoClose: 7500,
+        });  
+
+        setTimeout(alertFunction, 1500)
 
         
     }
@@ -73,6 +87,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer />
         </>)
 }
 export default Contact;
