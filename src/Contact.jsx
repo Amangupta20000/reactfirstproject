@@ -25,10 +25,10 @@ const Contact = () => {
         })
        
        const alertFunction = () => toast.info(<div>
-         Name : {data.fullname}.<br/>
-         Mobile no. : {data.phone} <br/>
-         Email : {data.email} <br/>
-         Your message is : <br/> {data.msg}.
+            Name : {data.fullname}.<br/>
+            Mobile no. : {data.phone} <br/>
+            Email : {data.email} <br/>
+            Your message is : <br/> {data.msg}.
        </div>, {
             position: "top-center",
             autoClose: 7500,
