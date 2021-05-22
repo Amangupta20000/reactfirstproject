@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactfirstproject/static/css/main.6b16226a.chunk.css",
+    "main.css": "/reactfirstproject/static/css/main.8c1df451.chunk.css",
     "main.js": "/reactfirstproject/static/js/main.eb0973e4.chunk.js",
     "main.js.map": "/reactfirstproject/static/js/main.eb0973e4.chunk.js.map",
     "runtime-main.js": "/reactfirstproject/static/js/runtime-main.06d3469a.js",
@@ -10,7 +10,7 @@
     "static/js/2.75338c38.chunk.js.map": "/reactfirstproject/static/js/2.75338c38.chunk.js.map",
     "index.html": "/reactfirstproject/index.html",
     "static/css/2.56001c6a.chunk.css.map": "/reactfirstproject/static/css/2.56001c6a.chunk.css.map",
-    "static/css/main.6b16226a.chunk.css.map": "/reactfirstproject/static/css/main.6b16226a.chunk.css.map",
+    "static/css/main.8c1df451.chunk.css.map": "/reactfirstproject/static/css/main.8c1df451.chunk.css.map",
     "static/js/2.75338c38.chunk.js.LICENSE.txt": "/reactfirstproject/static/js/2.75338c38.chunk.js.LICENSE.txt",
     "static/media/homeImg.aa1235d9.png": "/reactfirstproject/static/media/homeImg.aa1235d9.png",
     "static/media/s1.b78d444e.jpg": "/reactfirstproject/static/media/s1.b78d444e.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.06d3469a.js",
     "static/css/2.56001c6a.chunk.css",
     "static/js/2.75338c38.chunk.js",
-    "static/css/main.6b16226a.chunk.css",
+    "static/css/main.8c1df451.chunk.css",
     "static/js/main.eb0973e4.chunk.js"
   ]
 }
